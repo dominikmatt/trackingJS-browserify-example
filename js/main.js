@@ -1,5 +1,3 @@
-var $ = require('jQuery');
-
 // load TrackingJS
 var TrackingJS = require('tracking-js');
 
@@ -7,11 +5,11 @@ var TrackingJS = require('tracking-js');
 window.uaTrackingJS = require('bower_components/scripts/adapter/ua.js');
 
 //load event Bundle
-require('bower_components/scripts/eventBundle/linkBundle.js');
-require('bower_components/scripts/eventBundle/formBundle.js');
-require('bower_components/scripts/eventBundle/authBundle.js');
-require('bower_components/scripts/eventBundle/socialshareBundle.js');
-require('bower_components/scripts/eventBundle/videoBundle.js');
+require('bower_components/trackingJS/scripts/eventBundle/linkBundle.js');
+require('bower_components/trackingJS/scripts/eventBundle/formBundle.js');
+require('bower_components/trackingJS/scripts/eventBundle/authBundle.js');
+require('bower_components/trackingJS/scripts/eventBundle/socialshareBundle.js');
+require('bower_components/trackingJS/scripts/eventBundle/videoBundle.js');
 
 var tracking = new TrackingJS({
     namespace: 'example',
