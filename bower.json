@@ -1,0 +1,8 @@
+{
+  "name": "tracking-js-browserify-example",
+  "version": "0.0.0",
+  "dependencies": {
+    "jQuery": "~2.1.4",
+    "trackingJS": "latest"
+  }
+}
